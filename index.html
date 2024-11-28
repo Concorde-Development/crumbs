@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded PDF</title>
+    <title>PDF Images Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <embed src="Crumbs menu.pdf" width="100%" height="600px" type="application/pdf">
+    <h1>PDF Images Viewer</h1>
+    <!-- Add your images here -->
+    <img src="Crumbs menu_page-0001.jpg" alt="Image 1">
+    <img src="Crumbs menu_page-0002.jpg" alt="Image 2">
+    <img src="Crumbs menu_page-0003.jpg" alt="Image 3">
 </body>
 </html>
